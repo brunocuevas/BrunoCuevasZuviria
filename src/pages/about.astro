@@ -1,22 +1,30 @@
-<html>
-    <head>
+---
+const identity = {
+    first_name: "Bruno",
+    last_name: "Cuevas-Zuviría",
+    occupation: "post-doctoral researcher",
+    hobbies: ["coding"]
+}
+const skills = ["python", "noe4j", "astro"]
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "About Me";
+---
 
-    </head>
-    <body>
+<BaseLayout pageTitle={pageTitle}>
 
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
+    <h2>
+        Hi there!
+    </h2>
 
-        <h1>Bruno Cuevas Zuviria</h1>
+    <p>
+        My name is {identity.first_name} {identity.last_name}. I am a {identity.occupation}
+        working at the Universidad Politécnica de Madrid, and this is my blog.
+    </p>
 
-        <h2>
-            Hi there!
-        </h2>
+    <p>My skills are:</p>
+    <ul>
+        {skills.map((skill) => <li>{skill}</li>)}
+    </ul>
+    
 
-        <p>
-            My name is Bruno Cuevas Zuviría. I am a post-doctoral researcher
-            working at the Universidad Politécnica de Madrid, and this is my blog.
-        </p>
-    </body>
-</html>
+</BaseLayout>

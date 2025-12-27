@@ -1,0 +1,169 @@
+name: Bruno Cuevas Zuviría
+title: Post-doctoral researcher
+contact:
+  email: bruno.czuviria@upm.es
+  website: https://brunocuevaszuviria.netlify.app
+  location: Madrid, Spain
+
+summary:
+  - I am a computational biologist specializing in molecular simulation, applying this expertise to explore diverse scientific questions—from the molecular foundations of allergy to the origins of life. My research spans multiple fields, including Biotechnology, Evolutionary Biology, and Pathology, with a strong publication record in high-impact journals and contributions to international conferences, including invited talks. My work has been widely cited and recognized for its impact in the scientific community.
+
+skills:
+  - Python
+  - Neo4J
+  - Flask
+  - Molecular dynamics
+
+experience:
+  - company: Universidad Politécnica de Madrid
+    role: Post-doctoral researcher
+    start: 2025-03
+    end: Present
+    description: |
+      Project-hired researcher on the role of multiple infections on plant virus infection risk
+  - company: Universidad Politécnica de Madrid
+    role: Margarita Salas Post-doctoral fellow
+    start: 2024-01
+    end: 2024-12
+    description: |
+      Margarita Salas fellow working on synthetic biology, biocomputation, and its interface with the origin of life.
+  - company: University of Wisconsin-Madison
+    role: Margarita Salas Post-doctoral fellow
+    start: 2022-02
+    end: 2023-12
+    description: |
+      Margarita Salas fellow working on the evolution of proteins and the origins of life.
+  - company: University of Wisconsin-Madison
+    role: Post-doctoral researcher
+    start: 2021-09
+    end: 2022-02
+    description: |
+      Post-doctoral researcher working on the evolution of proteins and the origins of life.
+  - company: Universidad Politécnica de Madrid
+    role: Pre-doctoral researcher
+    start: 2018-01
+    end: 2021-07
+    description: |
+      Predoctoral researcher working on the development of electron density prediction models based on machine-learning.
+publications:
+  - year: 2025
+    journal: "Molecular Biology and Evolution"
+    title: "Evolutionary Dynamics of RuBisCO: Emergence of the Small Subunit and its Impact Through Time"
+    doi: "10.1093/molbev/msae268"
+    citations: 3
+  - year: 2025
+    journal: "Seminars in Cell and Developmental Biology"
+    title: "Why cellular computations challenge our design principles"
+    doi: "10.1016/j.semcdb.2025.103616"
+    citations: 0
+  - year: 2024
+    journal: "Phytopathology"
+    title: "An Agent-Based Model Shows How Mixed Infections Drive Multiyear Pathotype Dynamics in a Plant–Virus System"
+    doi: "10.1094/PHYTO-06-23-0214-R"
+    citations: 1
+  - year: 2024
+    journal: "Molecular Biology and Evolution"
+    title: "Emergence of an Orphan Nitrogenase Protein Following Atmospheric Oxygenation"
+    doi: "10.1093/molbev/msae067"
+    citations: 4
+  - year: 2023
+    journal: "npj Systems Biology and Applications"
+    title: "The modular biochemical reaction network structure of cellular translation"
+    doi: "10.1038/s41540-023-00315-3"
+    citations: 1
+  - year: 2023
+    journal: "Journal of Molecular Evolution"
+    title: "Informatic Capabilities of Translation and Its Implications for the Origins of Life"
+    doi: "10.1007/s00239-023-10125-0"
+    citations: 4
+  - year: 2022
+    journal: "Quantum Chemistry in the Age of Machine Learning"
+    title: "Learning electron densities"
+    doi: "10.1016/B978-0-323-90049-2.00022-6"
+    citations: 0
+  - year: 2021
+    journal: "Journal of Chemical Information and Modeling"
+    title: "Machine Learning of Analytical Electron Density in Large Molecules through Message-Passing"
+    doi: "10.1021/acs.jcim.1c00227"
+    citations: 25
+  - year: 2021
+    journal: "RSC Chemical Biology"
+    title: "Environment and coordination of FeMo-co in the nitrogenase metallochaperone NafY"
+    doi: "10.1039/d1cb00086a"
+    citations: 6
+  - year: 2021
+    journal: "Biochimica et Biophysica Acta - Molecular and Cell Biology of Lipids"
+    title: "The key to the allergenicity of lipid transfer protein (LTP) ligands: A structural characterization"
+    doi: "10.1016/j.bbalip.2021.158928"
+    citations: 28
+  - year: 2020
+    journal: "Journal of Chemical Information and Modeling"
+    title: "Analytical Model of Electron Density and Its Machine Learning Inference"
+    doi: "10.1021/acs.jcim.0c00197"
+    citations: 22
+  - year: 2020
+    journal: "Scientific Reports"
+    title: "A computational structural study on the DNA-protecting role of the tardigrade-unique Dsup protein"
+    doi: "10.1038/s41598-020-70431-1"
+    citations: 25
+  - year: 2020
+    journal: "Scientific Reports"
+    title: "Dynamic plasticity of the lipid antigen-binding site of CD1d is crucially favoured by acidic pH and helper proteins"
+    doi: "10.1038/s41598-020-62833-y"
+    citations: 5
+  - year: 2020
+    journal: "Biomolecules"
+    title: "Structural dynamics of the lipid antigen-binding site of cd1d protein"
+    doi: "10.3390/biom10040532"
+    citations: 9
+  - year: 2019
+    journal: "International Journal of Molecular Sciences"
+    title: "Energy landscapes of ligand motion inside the Tunnel-like cavity of lipid transfer proteins: The case of the Pru p 3 allergen"
+    doi: "10.3390/ijms20061432"
+    citations: 13
+  - year: 2018
+    journal: "Molecules"
+    title: "A comparative study of human saposins"
+    doi: "10.3390/molecules23020422"
+    citations: 10
+
+
+education:
+  - institution: Universidad Politécnica de Madrid
+    area: Biotechnology, Computational biology
+    degree: BSc
+    date:
+    start_date: 2012-09
+    end_date: 2016-07
+    location: Madrid, Spain
+    summary: 
+    highlights:
+      - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
+      - "Advisor: Prof. Sanjeev Arora"
+      - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+
+  - institution: Universitat Autonoma de Madrid
+    area: Mathematical Modeling for Science and Engineering, Complex Systems
+    degree: MSc
+    date:
+    start_date: 2016-09
+    end_date: 2017-07
+    location: Barcelona, Spain
+    summary: 
+    highlights:
+      - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
+      - "Advisor: Prof. Sanjeev Arora"
+      - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+
+  - institution: Universitat Autonoma de Madrid
+    area: Biotechnology of Plants and their Associated Microorganisms
+    degree: PhD
+    date:
+    start_date: 2018-01
+    end_date: 2021-07
+    location: Madrid, Spain
+    summary: 
+    highlights:
+      - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
+      - "Advisor: Prof. Sanjeev Arora"
+      - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)

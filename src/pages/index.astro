@@ -1,16 +1,34 @@
 ---
-
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Bruno Cuevas Zuviria's webpage";
 ---
+<BaseLayout pageTitle={pageTitle}>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Welcome to BCZ blog</title>
-	</head>
-	<body>
-		<h1>Bruno Cuevas Zuviría, PhD</h1>
-	</body>
-</html>
+	<p>
+		Welcome to my personal website. In this place, you can find 
+		a personal blog and an  online version of my CV. I like writing 
+		about my scientific work and technical posts on computational 
+		biology, coding, and modeling, and expressing my opinions about 
+		different topics, such as technology, climate change, urban 
+		development, etc. I might also review some movies and books.
+	</p>
+
+	<h2>
+		Interests
+	</h2>
+
+	<ul>
+		<li><b>Professional:</b> computational biology, evolution of proteins, origin of life, epidemiology of plant pathogens.</li>
+		<li><b>Not professional:</b> urban development, climate change, technology.</li>
+		
+	</ul>
+	
+	<p>
+		I envision a future where we detach ourselves from big tech 
+		giants to build an online presence. Personal websites are 
+		key to this goal. I built this personal website with Astro, 
+		which is a very fun and easy framework to build interactive 
+		and responsive webpages from scratch. 
+	</p>
+  
+</BaseLayout>

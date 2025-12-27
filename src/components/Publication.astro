@@ -1,0 +1,11 @@
+---
+const pub = Astro.props;
+---
+<li>
+    <div>
+        <b>{pub.title}</b> {pub.year} <i>{pub.journal}</i> <a href={pub.doi}>{pub.doi}</a>
+    </div>
+    <div>
+        {pub.tags?.join('; ')}
+    </div>
+</li>
