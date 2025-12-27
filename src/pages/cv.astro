@@ -1,10 +1,12 @@
 ---
 import fs from 'fs/promises';
+import path from 'path';
+import { load } from 'js-yaml';
 import BaseLayout from "../layouts/BaseLayout.astro"
 import Publication from '../components/Publication.astro';
-import { load } from 'js-yaml';
-const raw = await fs.readFile(new URL('../data/cv.yaml', import.meta.url), 'utf-8');
-const cv = load(raw) as any;
+const dataPath = path.join(process.cwd(), 'src', 'data', 'cv.yaml'); // adjust filename if different
+const cvRaw = await fs.readFile(dataPath, 'utf8');
+const cv = load(cvRaw) as any;
 const pageTitle = "BCZ CV"
 ---
 
