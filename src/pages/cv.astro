@@ -7,7 +7,7 @@ import Publication from '../components/Publication.astro';
 const dataPath = path.join(process.cwd(), 'src', 'data', 'cv.yaml'); // adjust filename if different
 const cvRaw = await fs.readFile(dataPath, 'utf8');
 const cv = load(cvRaw) as any;
-const pageTitle = "BCZ CV"
+const pageTitle = "Bruno Cuevas Zuviría CV"
 ---
 
 
