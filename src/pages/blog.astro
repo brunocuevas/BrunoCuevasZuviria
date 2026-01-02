@@ -1,16 +1,28 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import BlogPost from "../components/BlogPost.astro";
 const pageTitle = "BCZ Blog";
-const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
+import BlogPost from "../components/BlogPost.astro";
+const allPosts = Object.values(import.meta.glob('./vault/pubready/*.md', { eager: true }));
+allPosts.sort((a, b) => {
+  const dateA = new Date(a.frontmatter.pubDate);
+  const dateB = new Date(b.frontmatter.pubDate);
+  return dateB - dateA;
+});
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    
+
+
+    <p>
+	Remember: All opinions are of my own!
+
+    </p>
+
+
 
     {
         allPosts.map(
-            (post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />
+            (post: any) => <BlogPost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate} tags={"".concat(post.frontmatter.tags)} />
         )
     }
 

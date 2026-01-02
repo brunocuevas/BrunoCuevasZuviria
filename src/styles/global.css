@@ -26,6 +26,7 @@ main {
 
 header {
   width: 100vw;
+  background-color: #eee8d5;
   position: relative;
   left: 50%;
   right: 50%;
@@ -53,6 +54,12 @@ h1 {
 
 /* nav styles */
 
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .nav-links {
   width: 100%;
   display: none;
@@ -78,7 +85,7 @@ h1 {
 
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
+    margin-left: 0;
     display: block;
     position: static;
     width: auto;

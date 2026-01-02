@@ -1,6 +1,20 @@
 ---
-const { url, title } = Astro.props;
+const { url, title, date, tags} = Astro.props;
+import '../styles/global.css';
 ---
+<style>
+a {
+   text-decoration: none;
+   color: #002b36;
+
+}
+.date {
+   color: #839496;
+}
+.tags {
+   color: #cb4b16;
+}
+</style>
 <li>
-    <a href={url}>{title}</a>
+    <a href={url}>{title}</a> <span class="date"> {date.toString().slice(0,10)} </span> <span class="tags">{tags}</span>
 </li>
