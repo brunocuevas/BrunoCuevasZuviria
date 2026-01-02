@@ -6,13 +6,20 @@ contact:
   location: Madrid, Spain
 
 summary:
-  - I am a computational biologist specializing in molecular simulation, applying this expertise to explore diverse scientific questions—from the molecular foundations of allergy to the origins of life. My research spans multiple fields, including Biotechnology, Evolutionary Biology, and Pathology, with a strong publication record in high-impact journals and contributions to international conferences, including invited talks. My work has been widely cited and recognized for its impact in the scientific community.
+- I am a computational biology researcher with 10 years of professional experience. I have applied my molecular and mathematical modelling skills in different areas of research, such as the molecular basis of allergy, the interface of machine-learning and quantum chemistry, the epidemiology of plant-viruses, the evolution of proteins, and the origins of life. This research experience also allows me to teach advanced college courses in structural computational biology and protein structure. Among my main achievements, I count the methodology for the prediction of electron densities, the creation of the first prebiotic chemistry database, or the prediction of 5k Nitrogenase extant and ancestral structures.  
+
 
 skills:
   - Python
   - Neo4J
   - Flask
   - Molecular dynamics
+  - Structure prediction
+  - Machine learning
+  - Web development
+  - Data analysis
+  - Adobe Illustrator
+  - Blender
 
 experience:
   - company: Universidad Politécnica de Madrid
@@ -46,6 +53,12 @@ experience:
     description: |
       Predoctoral researcher working on the development of electron density prediction models based on machine-learning.
 publications:
+
+  - year: 2025
+    journal: "Royal Society Interface Focus"
+    title: "ChemOrigins: a community-curated database for origins-of-life chemistry"
+    doi: "10.1098/rsfs.2025.0034"
+    citations: 0
   - year: 2025
     journal: "Molecular Biology and Evolution"
     title: "Evolutionary Dynamics of RuBisCO: Emergence of the Small Subunit and its Impact Through Time"
