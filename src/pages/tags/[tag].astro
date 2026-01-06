@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogPost from '../../components/BlogPost.astro';
 export async function getStaticPaths() {
-  const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
+  const allPosts = Object.values(import.meta.glob('../vault/pubready/*.md', { eager: true }));
   const uniqueTags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
   return uniqueTags.map((tag) => {
     const filteredPosts = allPosts.filter((post: any) => post.frontmatter.tags.includes(tag));
@@ -19,15 +19,16 @@ const { posts } = Astro.props;
 
 <BaseLayout pageTitle={tag}>
   <p>Posts tagged with {tag}</p>
-  <ul>
+  <div>
+
+  
     
     {
-        posts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title}/>)
+        posts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate} tags={post.frontmatter.tags} />)
     }
 
     
-  </ul>
-      
+  </div>
 
 
 </BaseLayout>

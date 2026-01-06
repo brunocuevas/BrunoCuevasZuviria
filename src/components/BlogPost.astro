@@ -5,16 +5,25 @@ import '../styles/global.css';
 <style>
 a {
    text-decoration: none;
-   color: #002b36;
-
+}
+.pub_title {
+    font-weight: 800;
+    color: #073642;
 }
 .date {
    color: #839496;
 }
-.tags {
-   color: #cb4b16;
+.blog_entry {
+    margin-bottom: 1.5rem;
 }
 </style>
-<li>
-    <a href={url}>{title}</a> <span class="date"> {date.toString().slice(0,10)} </span> <span class="tags">{tags}</span>
-</li>
+<div class="blog_entry">
+    <a href={url}><span class="pub_title">{title}</span></a> <span class="date"> {date.toString().slice(0,10)} 
+    <div class="tags">
+        {
+            tags.map((tag: any) => (
+                <a class="tag" href={`/tags/${tag}`}>{tag}</a>
+            ))
+        }
+    </div>
+</div>

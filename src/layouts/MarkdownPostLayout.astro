@@ -3,15 +3,31 @@ const { frontmatter } = Astro.props;
 import BaseLayout from "./BaseLayout.astro";
 ---
 
+<style>
+
+  .text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+</style>
+
+
 <BaseLayout pageTitle={frontmatter.title}>
     
     <p>Written by {frontmatter.author}</p>
     <p>Published on {frontmatter.pubDate.toString().slice(0,10)}</p>
-    <p>
+    
+    <div class="tags">
         {
-            "".concat(frontmatter.tags)
+            frontmatter.tags.map((tag: any) => (
+                <a class="tag" href={`/tags/${tag}`}>{tag}</a>
+            ))
         }
     </p>
-    <slot />
+    <br>
+    <div class="text">
+      <slot />
+    </div>
+    
 </BaseLayout>
 
