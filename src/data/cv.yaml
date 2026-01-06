@@ -53,11 +53,15 @@ experience:
     description: |
       Predoctoral researcher working on the development of electron density prediction models based on machine-learning.
 publications:
-
   - year: 2025
     journal: "Royal Society Interface Focus"
     title: "ChemOrigins: a community-curated database for origins-of-life chemistry"
     doi: "10.1098/rsfs.2025.0034"
+    citations: 0
+  - year: 2025
+    journal: "eLife"
+    title: "Structural evolution of nitrogenase over 3 billion years"
+    doi: "10.7554/eLife.105613.4"
     citations: 0
   - year: 2025
     journal: "Molecular Biology and Evolution"
