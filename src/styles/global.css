@@ -113,3 +113,17 @@ nav {
 :has(.menu[aria-expanded="true"]) .nav-links {
   display: unset;
 }
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.tag {
+  margin: 0.00em;
+  border: dotted 1px #eee8d5;
+  border-radius: 1.0em;
+  padding: .15em 1em;
+  font-size: 0.85em;
+  background-color: #073642;
+  color: #eee8d5;
+}
